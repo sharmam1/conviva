@@ -4,7 +4,8 @@
   "description": "Server side rendering template for React 16",
   "main": "src/index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development babel-node src/index",
+    "start": "node public/index",
+    "dev": "cross-env NODE_ENV=development babel-node src/index",
     "watch": "cross-env NODE_ENV=development nodemon src/index",
     "build": "npm-run-all -p build:client build:server build:node",
     "build:client": "cross-env NODE_ENV=production webpack --config webpack/client/prod.js",
