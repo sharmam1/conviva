@@ -27,10 +27,6 @@
     "express",
     "ejs"
   ],
-  "author": {
-    "name": "Rico Herwig",
-    "email": "rherwig4711@gmail.com"
-  },
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
