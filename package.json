@@ -33,6 +33,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
+    "axios": "^0.19.2",
     "copy-webpack-plugin": "^5.0.2",
     "core-js": "^3.0.1",
     "express": "^4.16.4",

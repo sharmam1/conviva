@@ -16,11 +16,11 @@ export default class App extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>App Component | React Universal</title>
+                    <title>Conviva</title>
                 </Helmet>
 
-                <h1>Welcome to React Fiber.</h1>
-                <UniversalComponent name="getting-started" />
+                <h1>Conviva test API: "https://api.myjson.com/bins/1b93sc"</h1>
+                <UniversalComponent name="employee" />
             </div>
         );
     }
