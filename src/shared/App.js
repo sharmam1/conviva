@@ -16,10 +16,10 @@ export default class App extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>Conviva</title>
+                    <title>JIRA</title>
                 </Helmet>
 
-                <h1>Conviva test API: "https://api.myjson.com/bins/1b93sc"</h1>
+                <h1>JIRA </h1>
                 <UniversalComponent name="employee" />
             </div>
         );

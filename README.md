@@ -5,6 +5,5 @@ the following:
 
 ```
 $ npm i
-$ npm run build
-$ node public/index
+$ export export NODE_TLS_REJECT_UNAUTHORIZED='0' && npm run dev
 ```
